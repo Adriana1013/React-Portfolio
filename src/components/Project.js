@@ -4,8 +4,10 @@ function Project(props) {
   return (
     <div>
       {props.listProjects.map((listProjects) => (
-        <div>
-          <img src={require('../Assets/PasswordGenerator.png')} alt="passwordgenerator" className="image1" />
+        <div className="container1">
+        <a href={listProjects.live} target="_blank" rel="noreferrer">
+          <img src={process.env.PUBLIC_URL + listProjects.image} alt="projectphotos" className="image1" />
+           </a>
             <p key={listProjects.id}>
              {listProjects.title}
                   </p>

@@ -24,6 +24,10 @@ div.container {
   text-align: center;
 }
 
+div.container1 {
+  text-align: center;
+}
+
 ul.myUL {
 	list-style: square;
   display: inline-block;
