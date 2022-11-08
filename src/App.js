@@ -1,9 +1,15 @@
-function App() {
-  return (
-    <div className="App">
-         
-    </div>
-  );
-}
+import "./App.css"
+import React from "react";
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Navigation from "./components/Navigation";
 
-export default App;
+export default function App() {
+return (
+<div>
+<Header />
+<Navigation />
+<Footer />
+</div>
+);
+}
